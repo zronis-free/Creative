@@ -1,0 +1,1 @@
+let width=$(window).width();width<770&&$(".item-thirdset__title").click((function(t){$(".item-thirdset__title").not($(this)).removeClass("-active"),$(".item-thirdset__text").not($(this).next()).slideUp(300),$(this).toggleClass("-active").next().slideToggle(300)}));
